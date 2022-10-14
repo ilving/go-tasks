@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 	"sync"
-	"time"
 )
 
 func raceT() {
@@ -14,9 +13,9 @@ func raceT() {
 		wg.Add(1)
 		go func(rid int) {
 			defer wg.Done()
-			for i := 0; i < 10; i++ {
-				time.Sleep(1 * time.Millisecond)
-				fmt.Printf("%d|%d: %d\n", rid, i, r)
+			for {
+				//time.Sleep(1 * time.Millisecond)
+				//fmt.Printf("%d|%d: %d\n", rid, i, r)
 				r++
 			}
 		}(i)
