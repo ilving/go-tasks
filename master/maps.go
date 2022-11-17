@@ -21,8 +21,8 @@ func mapsT2() {
 		v  int
 	}
 
-	m := map[int]myStruct{0: {v: 1}}
-	m[0].v = 0 // map.buckets[ hash(key) ][bucket_key] +  + offset(v)
+	// m := map[int]myStruct{0: {v: 1}}
+	// m[0].v = 0 // map.buckets[ hash(key) ][bucket_key] +  + offset(v)
 
 	s := []myStruct{{v: 1}}
 	s[0].v = 0 // slice.pointer + index*sizeof(struct) + offset(v)
