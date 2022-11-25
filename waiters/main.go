@@ -15,5 +15,6 @@ func Steady() {
 
 func ready() {
 	// ждем вызова стеди
-	run()
+
+	// run()
 }

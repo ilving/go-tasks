@@ -1,8 +1,8 @@
 package main
 
 import (
-	bottom "github.com/ilving/test/t3/bottom"
-	top "github.com/ilving/test/t3/top"
+	bottom "github.com/ilving/test/di/bottom"
+	top "github.com/ilving/test/di/top"
 )
 
 func main() {

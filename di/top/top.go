@@ -1,7 +1,7 @@
 package layer1
 
 import (
-	"github.com/ilving/test/t3/dti"
+	"github.com/ilving/test/di/dti"
 )
 
 // type ILayer2Object interface {

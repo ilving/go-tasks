@@ -6,13 +6,13 @@ func strF() {
 	// -------------------
 
 	//s := "123"
-	s := "Wабв"
+	s := "W漢字"
 	for k, v := range s {
 		fmt.Println(k, v)
 	}
 
 	for i := 0; i < len(s); i++ {
-		fmt.Println(s[i])
+		fmt.Println(i, s[i])
 	}
 
 	// -------------------
