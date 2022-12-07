@@ -15,4 +15,10 @@ func channels2() {
 		v, f := <-ch
 		fmt.Println(v, f)
 	}
+
+	// -------- OR ---------------
+
+	for v := range ch {
+		fmt.Println(v)
+	}
 }
