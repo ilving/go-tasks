@@ -14,7 +14,7 @@ type S3 struct{}
 
 func (s S3) F() { print("S3") }
 
-func ifT() {
+func main() {
 	s := S{}
 	s.F()
 

@@ -6,7 +6,7 @@ import (
 	"sync"
 )
 
-func channels1() {
+func main() {
 	wg := sync.WaitGroup{}
 	ch := make(chan string)
 
